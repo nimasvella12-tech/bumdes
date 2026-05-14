@@ -6,7 +6,7 @@
 
 /* ============ FIREBASE CONFIG ============ */
 const FIREBASE_CONFIG = {
-  databaseURL: "https://bumdes-suwaluh-default-rtdb.asia-southeast1.firebasedatabase.app/"
+  databaseURL: "https://bumdes-suwaluh-default-rtdb.asia-southeast1.firebasedatabase.app"
   // GANTI dengan URL Realtime Database Firebase Anda!
 };
 const DB_URL = FIREBASE_CONFIG.databaseURL;
@@ -41,32 +41,32 @@ async function fbGetAll(path) {
 const DEFAULT_USAHA = [
   { id:1, nama:'Kolam Renang', kategori:'wisata', harga:'Rp 15.000/orang', hargaNum:15000, jadwal:'Setiap hari 07.00–17.00', icon:'🏊',
     deskripsi:'Kolam renang keluarga dengan wahana air yang menyenangkan, cocok untuk anak-anak hingga dewasa.',
-    gambar:'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=600&q=80',
+    gambar:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMJq3W03JUs59ABkzOHm1zM5No2eAnumF05h6L3PeT4feREN6svJqvhamFTCRoHRbM16f5l3tKHvZuxvAFKRyEzflZB3S2UdztkkioSML7Qxaz7YEOuKsRWAp427YoGGcFefaaSji6C6dtBtBU4lK1cRqaCWT2N_hfrefpwDODEai5BrDixC3A1TsbT7uR/s4000/mini%20waterpark.jpg',
     fasilitas:['Loker','Kamar Ganti','Kantin','Parkir','Wahana Seluncur'], kapasitas:'200 orang/hari', luas:'±500 m²' },
   { id:2, nama:'Flying Fox', kategori:'wisata', harga:'Rp 25.000/orang', hargaNum:25000, jadwal:'Sabtu–Minggu 08.00–16.00', icon:'🪂',
     deskripsi:'Wahana flying fox memacu adrenalin sepanjang 150 meter melintasi danau dan pepohonan hijau.',
-    gambar:'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&q=80',
+    gambar:'https://flyingfoxnesia.com/wp-content/uploads/2020/03/Jasa-Instalasi-Wahana-Outbound-Flyingfoxnesia-Flyingfox-4.jpg',
     fasilitas:['Helm & Harness','Instruktur','Asuransi','Foto Action'], kapasitas:'50 orang/hari', luas:'150 m lintasan' },
   { id:3, nama:'Kolam Pancing', kategori:'wisata', harga:'Rp 20.000/jam', hargaNum:20000, jadwal:'Setiap hari 06.00–18.00', icon:'🎣',
     deskripsi:'Kolam pancing dengan ikan mas, nila, dan lele berkualitas. Area nyaman dengan gazebo dan pepohonan rindang.',
-    gambar:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    gambar:'https://akcdn.detik.net.id/community/media/visual/2023/06/05/kolam-pancing-dadaptulis-dalam_169.png?w=700&q=90',
     fasilitas:['Gazebo','Sewa Pancing','Kantin','Parkir'], kapasitas:'80 pemancing', luas:'±800 m²' },
-  { id:4, nama:'ATV Track', kategori:'wisata', harga:'Rp 50.000/30 menit', hargaNum:50000, jadwal:'Sabtu–Minggu 08.00–17.00', icon:'🏍️',
-    deskripsi:'Trek ATV off-road melewati medan berliku, tanah berbukit, dan sungai kecil. Pengalaman seru yang tak terlupakan!',
-    gambar:'https://images.unsplash.com/photo-1547638375-ebf04735d792?w=600&q=80',
-    fasilitas:['Helm & Pelindung','Instruktur','Trek 1 km','Parkir'], kapasitas:'30 orang/sesi', luas:'1 km track' },
-  { id:5, nama:'Camping Ground', kategori:'wisata', harga:'Rp 35.000/malam', hargaNum:35000, jadwal:'Buka setiap hari (booking)', icon:'⛺',
-    deskripsi:'Area perkemahan yang asri di bawah pepohonan pinus. Api unggun dan pemandu wisata alam tersedia.',
-    gambar:'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80',
-    fasilitas:['Area Tenda','Toilet Umum','Api Unggun','Pemandu Alam','Air Bersih'], kapasitas:'100 orang', luas:'±2 Ha' },
-  { id:6, nama:'Warung Kuliner Desa', kategori:'kuliner', harga:'Mulai Rp 10.000', hargaNum:10000, jadwal:'Setiap hari 08.00–20.00', icon:'🍽️',
+  { id:5, nama:'Warung Kuliner Desa', kategori:'kuliner', harga:'Mulai Rp 10.000', hargaNum:10000, jadwal:'Setiap hari 08.00–20.00', icon:'🍽️',
     deskripsi:'Sajian kuliner khas Desa Suwaluh — nasi rawon, soto ayam, pecel lele, dan berbagai minuman segar alami.',
-    gambar:'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80',
+    gambar:'https://nusawarta.id/wp-content/uploads/2025/12/635e378fea5f2.jpeg',
     fasilitas:['Tempat Duduk','WiFi','Parkir','Toilet'], kapasitas:'60 kursi', luas:'±120 m²' },
-  { id:7, nama:'Jasa Sewa Gazebo', kategori:'jasa', harga:'Rp 100.000/sesi', hargaNum:100000, jadwal:'Setiap hari 08.00–18.00', icon:'🛖',
-    deskripsi:'Sewa gazebo tepi danau untuk keluarga, gathering, atau arisan. Tersedia berbagai ukuran gazebo yang nyaman.',
-    gambar:'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=600&q=80',
-    fasilitas:['Meja & Kursi','Stop Kontak','WiFi','View Danau'], kapasitas:'10–20 orang', luas:'Gazebo 6×6 m' }
+  { id:6, nama:'Kredit Usaha Desa', kategori:'jasa', harga:'Bunga 2%/bulan', hargaNum:0, jadwal:'Senin–Sabtu 08.00–16.00', icon:'🏦',
+    deskripsi:'Layanan simpan pinjam untuk warga dan pelaku usaha Desa Suwaluh. Proses cepat, persyaratan mudah, dan berbunga rendah untuk mendorong pertumbuhan ekonomi desa.',
+    gambar:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPK__KD0NVoSnyqVucFsxRbcY9HwKlmc-EwI_jknt6l1Oo6CrhqjIGkEB-XT7uanvE34CsW1fm7F5Pz8H501UpAdesIEFS68cuRiKldePuEXIF9umjnROTm16jbMkZzT6xX3XxrNJ_Acqi/s1600/Foto000.jpg',
+    fasilitas:['Pinjaman Usaha','Simpan Deposit','Konsultasi Keuangan','Proses Cepat','Tanpa Agunan < 5Jt'], kapasitas:'Tidak terbatas', luas:'Kantor ±40 m²' },
+  { id:7, nama:'BUMDesMart', kategori:'jasa', harga:'Harga Pasar', hargaNum:0, jadwal:'Setiap hari 07.00–21.00', icon:'🛒',
+    deskripsi:'Toko sembako dan kebutuhan sehari-hari milik BUMDes yang menyediakan produk berkualitas dengan harga terjangkau. Mendukung ketahanan pangan dan perekonomian warga desa.',
+    gambar:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHsFhvvKRy7zDWfUjgTYExhOaNpPE3DBPVcY97ot9B96sSwQh7F1YXy0BRxHs18GRTvIXl6s1xGX3WuK79oVRD81xkdSsfpbjMWoFg-N18xctg-Tre458F7AmWIhivYgeJZXLXyhrFDjbehEpMM1psZy3xxSFGq6MlNEEFPAdhgnW53TR4Fj5ZgXnrx7LI/s320/bumdesmart.png',
+    fasilitas:['Sembako Lengkap','Produk UMKM Desa','Harga Kompetitif','Parkir','Pembayaran Non-Tunai'], kapasitas:'±50 pengunjung', luas:'±80 m²' },
+  { id:8, nama:'Pamsimas (Air Bersih)', kategori:'jasa', harga:'Rp 2.500/m³', hargaNum:2500, jadwal:'Layanan 24 jam', icon:'💧',
+    deskripsi:'Pengelolaan Air Bersih BUMDes Suwaluh Mandiri Sejahtera (Pamsimas) menyediakan air bersih layak minum bagi seluruh warga Desa Suwaluh secara merata, terjangkau, dan berkelanjutan.',
+    gambar:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1F19WYLNx4GHclsteZAPkPmDosI1J79XWC_XACqfHyjS8DXaXuFqw__36KybLbZmaXW2nri_D5V7jSOIV7nLdz5dlQnFNin-Nnr5lJXdj5EAaue41xkdC9Bw1YTThDePqEg1gdkOOyboCWtAruxU_aMfbO19TeA-_lrylDY0U7KJebRtIf7qTvcSAGxxb/s640/Unit%20Pamsimas.jpg',
+    fasilitas:['Jaringan Pipa Desa','Air Bersih Layak Minum','Meteran Rumah','Perawatan Rutin','Pengaduan 24 Jam'], kapasitas:'Seluruh KK Desa Suwaluh', luas:'Jaringan ±5 km' }
 ];
 
 const DEFAULT_INVESTOR_FALLBACK = [
@@ -205,86 +205,17 @@ async function saveAnalisisFirebase(data) {
   return await fbSet('analisis', data);
 }
 
-/* RESERVASI — Firebase (terlihat semua admin) */
-async function getReservasiFirebase() {
-  if (!isFirebaseConfigured()) return getLs('bumdes_reservasi', []);
-  const data = await fbGetAll('reservasi');
-  return data.sort((a,b) => (b.waktuMs||0)-(a.waktuMs||0));
-}
-async function saveReservasiFirebase(entry) {
-  if (!isFirebaseConfigured()) {
-    const all = getLs('bumdes_reservasi', []);
-    const idx = all.findIndex(x => x.fbKey === entry.fbKey);
-    if (idx >= 0) all[idx] = entry; else all.unshift(entry);
-    setLs('bumdes_reservasi', all); return true;
-  }
-  if (entry.fbKey) {
-    const {fbKey, ...rest} = entry;
-    return await fbSet(`reservasi/${fbKey}`, rest);
-  }
-  return await fbPush('reservasi', entry);
-}
-async function deleteReservasiFirebase(fbKey) {
-  if (!isFirebaseConfigured()) {
-    setLs('bumdes_reservasi', getLs('bumdes_reservasi',[]).filter(x=>x.fbKey!==fbKey));
-    return true;
-  }
-  return await fbDelete(`reservasi/${fbKey}`);
-}
-
-/* SARAN — Firebase (terlihat semua user & admin) */
-async function getSaranFirebase() {
-  if (!isFirebaseConfigured()) return getLs('bumdes_saran', DEFAULT_SARAN);
-  const data = await fbGetAll('saran');
-  return data.length ? data.sort((a,b)=>(b.waktuMs||0)-(a.waktuMs||0)) : DEFAULT_SARAN;
-}
-async function saveSaranFirebase(entry) {
-  if (!isFirebaseConfigured()) {
-    const all = getLs('bumdes_saran', DEFAULT_SARAN);
-    all.unshift(entry); setLs('bumdes_saran', all); return true;
-  }
-  return await fbPush('saran', entry);
-}
-async function deleteSaranFirebase(fbKey) {
-  if (!isFirebaseConfigured()) {
-    setLs('bumdes_saran', getLs('bumdes_saran', DEFAULT_SARAN).filter(x=>x.fbKey!==fbKey&&String(x.id)!==String(fbKey)));
-    return true;
-  }
-  return await fbDelete(`saran/${fbKey}`);
-}
-
-/* MODAL PENDING — Firebase (terlihat semua admin) */
-async function getModalPendingFirebase() {
-  if (!isFirebaseConfigured()) return getLs('bumdes_modal_pending', []);
-  const data = await fbGetAll('modal_pending');
-  return data.sort((a,b)=>(b.waktuMs||0)-(a.waktuMs||0));
-}
-async function saveModalPendingFirebase(entry) {
-  if (!isFirebaseConfigured()) {
-    const all = getLs('bumdes_modal_pending', []);
-    const idx = all.findIndex(x => x.fbKey === entry.fbKey);
-    if (idx >= 0) all[idx] = entry; else all.unshift(entry);
-    setLs('bumdes_modal_pending', all); return true;
-  }
-  if (entry.fbKey) {
-    const {fbKey, ...rest} = entry;
-    return await fbSet(`modal_pending/${fbKey}`, rest);
-  }
-  return await fbPush('modal_pending', entry);
-}
-async function deleteModalPendingFirebase(fbKey) {
-  if (!isFirebaseConfigured()) {
-    setLs('bumdes_modal_pending', getLs('bumdes_modal_pending',[]).filter(x=>x.fbKey!==fbKey));
-    return true;
-  }
-  return await fbDelete(`modal_pending/${fbKey}`);
-}
-
 /* ============ LOCALSTORAGE HELPERS ============ */
 function getLs(key, def=[]) { try { const d=localStorage.getItem(key); return d?JSON.parse(d):def; } catch { return def; } }
 function setLs(key, val) { try { localStorage.setItem(key, JSON.stringify(val)); } catch {} }
 function getOrganisasi() { return getLs('bumdes_organisasi', DEFAULT_ORGANISASI); }
 function setOrganisasi(d) { setLs('bumdes_organisasi', d); }
+function getSaran() { return getLs('bumdes_saran', DEFAULT_SARAN); }
+function setSaran(d) { setLs('bumdes_saran', d); }
+function getReservasi() { return getLs('bumdes_reservasi', []); }
+function setReservasi(d) { setLs('bumdes_reservasi', d); }
+function getModalPending() { return getLs('bumdes_modal_pending', []); }
+function setModalPending(d) { setLs('bumdes_modal_pending', d); }
 
 /* ============ UTILITIES ============ */
 function rupiah(n) { return 'Rp ' + Number(n).toLocaleString('id-ID'); }
@@ -330,6 +261,25 @@ document.querySelectorAll('.stat-number[data-target]').forEach(el=>{const o=new 
 /* ============ PERSON AVATAR ============ */
 function personAvatarSVG(color='#40916c') {
   return `<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="12" r="7" fill="${color}" opacity="0.8"/><ellipse cx="18" cy="28" rx="11" ry="8" fill="${color}" opacity="0.6"/></svg>`;
+}
+
+/* Foto asli pengurus — key: lowercase nama pertama */
+const FOTO_PENGURUS = {
+  'suwarno':       'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq9VPv8KykoCzRjHEPKXlIjP6S2XgVSAOFDCCwQQsG_PwL8i9lDKfuxOVfb9HvdOQcxiEbItqX44L1-eCUzcmV-6q0KOQFgadx1hX9XJVvOce-Zsv2N04EpOag8fAmRrA13vKCuewV3KkCA8qvi_8jWAPZTR22sd8Ocbc-CCi7WG52YVvd61mYotp9vg/w701-h733/WhatsApp%20Image%202026-05-14%20at%2006.08.49.jpeg',
+  'hadi santoso':  'https://www.mldspot.com/storage/generated/June2021/72268352_157613611980727_7594661751893685589_n.jpg',
+  'siti fatimah':  'https://cdn.bithe.co/files/images/20221006-buk-yusniwati.png',
+  'agus riyanto':  'https://news.nexa.net.id/wp-content/uploads/2025/03/bapak-internet-indonesia.jpg',
+  'dedi kusuma':   'https://sarinovita.com/wp-content/uploads/2017/08/DSC06124-e1502651234261.jpg',
+  'rina wati':     'https://media.suara.com/pictures/original/2023/06/30/59306-potret-cantik-ibu-jeje-govinda.jpg',
+  'bambang eko':   'https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/VqbcmM/2024/12/10/e4e15677-838d-492e-9dba-8ad842f7e7a4.jpg~tplv-aphluv4xwc-resize-jpeg:700:0.jpeg?lk3s=0ccea506&x-expires=1778723570&x-signature=3HuirHzFOoz5Tqsxq3htqswb1wg%3D&x-signature-webp=0n4bBBof%2FP9GploTB2tKggQaAnc%3D',
+};
+
+function getFotoPengurus(nama) {
+  const key = nama.toLowerCase().replace(/^(bpk\.|bapak|ibu)\s+/,'').trim();
+  for (const [k,v] of Object.entries(FOTO_PENGURUS)) {
+    if (key.includes(k) || k.includes(key.split(' ')[0])) return v;
+  }
+  return null;
 }
 
 /* ============ ORG CHART ============ */
@@ -443,9 +393,10 @@ document.getElementById('formSaham')?.addEventListener('submit',function(e){
   [{id:'s-nama',val:nama},{id:'s-alamat',val:alamat},{id:'s-telp',val:telp}].forEach(f=>{const el=document.getElementById(f.id);const err=el.nextElementSibling;if(!f.val){el.classList.add('error');err.textContent='Wajib diisi';valid=false;}else{el.classList.remove('error');err.textContent='';}});
   if(lembar<1){document.getElementById('s-lembar').classList.add('error');document.getElementById('s-lembar').nextElementSibling.textContent='Minimal 1 lembar';valid=false;}else{document.getElementById('s-lembar').classList.remove('error');document.getElementById('s-lembar').nextElementSibling.textContent='';}
   if(!valid)return;
-  const entry={nama,alamat,telp,lembar,total:lembar*100000,bukti:(document.getElementById('s-bukti')?.files[0])?document.getElementById('s-bukti').files[0].name:'-',status:'pending',waktu:new Date().toLocaleDateString('id-ID'),waktuMs:Date.now()};
-  const ok = await saveModalPendingFirebase(entry);
-  showToast(ok?'✅ Permintaan pembelian saham dikirim! Tunggu konfirmasi admin.':'✅ Permintaan dikirim!');
+  const pending=getModalPending();
+  pending.push({id:genId(pending),nama,alamat,telp,lembar,total:lembar*100000,bukti:(document.getElementById('s-bukti')?.files[0])?document.getElementById('s-bukti').files[0].name:'-',status:'pending',waktu:new Date().toLocaleDateString('id-ID')});
+  setModalPending(pending);
+  showToast('✅ Permintaan pembelian saham dikirim! Tunggu konfirmasi admin.');
   this.reset(); if(totalDisplay)totalDisplay.textContent='Rp 0';
   const p=document.getElementById('s-bukti-preview');if(p)p.textContent='';
 });
@@ -543,9 +494,10 @@ QRCode.toCanvas(document.getElementById('qrCanvas'),'${qrData}',{width:160,margi
 </body></html>`;
 }
 
-function kirimTiket(r){
+function kirimTiket(id){
+  const r=getReservasi().find(x=>x.id===id);
   if(!r){showToast('Data reservasi tidak ditemukan','error');return;}
-  if(r.status!=='validated'){showToast('Konfirmasi reservasi terlebih dahulu sebelum kirim tiket!','error');return;}
+  if(r.status!=='validated'){showToast('Konfirmasi reservasi terlebih dahulu!','error');return;}
   const w=window.open('','_blank');
   if(w){w.document.write(generateTiketHTML(r));w.document.close();}
   else showToast('Aktifkan pop-up untuk membuka tiket!','error');
@@ -560,9 +512,9 @@ document.getElementById('formReservasi')?.addEventListener('submit',function(e){
   if(jumlah<1){document.getElementById('res-jumlah').classList.add('error');valid=false;}else document.getElementById('res-jumlah').classList.remove('error');
   if(!valid)return;
   const invoiceNo=genInvoiceNo();
-  const data={invoiceNo,nama,telp,wisata,tanggal,jumlah,catatan:document.getElementById('res-catatan')?.value.trim()||'',bukti:(document.getElementById('res-bukti')?.files[0])?document.getElementById('res-bukti').files[0].name:'-',status:'pending',waktu:new Date().toLocaleDateString('id-ID'),waktuMs:Date.now()};
-  await saveReservasiFirebase(data);
-  showReservasiSuccessModal({...data});
+  const data={id:genId(getReservasi()),invoiceNo,nama,telp,wisata,tanggal,jumlah,catatan:document.getElementById('res-catatan')?.value.trim()||'',bukti:(document.getElementById('res-bukti')?.files[0])?document.getElementById('res-bukti').files[0].name:'-',status:'pending',waktu:new Date().toLocaleDateString('id-ID')};
+  const reservasi=getReservasi(); reservasi.push(data); setReservasi(reservasi);
+  showReservasiSuccessModal(data);
   this.reset(); document.getElementById('res-bukti-preview')&&(document.getElementById('res-bukti-preview').textContent='');
 });
 
@@ -604,24 +556,14 @@ document.getElementById('formSaran')?.addEventListener('submit',function(e){
   let valid=true;
   [{id:'sr-nama',val:nama},{id:'sr-pesan',val:pesan}].forEach(f=>{const el=document.getElementById(f.id);const err=el.nextElementSibling;if(!f.val){el.classList.add('error');err.textContent='Wajib diisi';valid=false;}else{el.classList.remove('error');err.textContent='';}});
   if(!valid)return;
-  const saranEntry={nama,email:document.getElementById('sr-email')?.value||'',pesan,ratingWisata:ratings['wisata']||0,ratingPrasarana:ratings['prasarana']||0,waktu:new Date().toLocaleDateString('id-ID'),waktuMs:Date.now()};
-  await saveSaranFirebase(saranEntry);
-  renderSaranList(); renderTestimoniList();
+  const saranData=getSaran();
+  saranData.unshift({id:genId(saranData),nama,email:document.getElementById('sr-email')?.value||'',pesan,ratingWisata:ratings['wisata']||0,ratingPrasarana:ratings['prasarana']||0,waktu:new Date().toLocaleDateString('id-ID')});
+  setSaran(saranData); renderSaranList(); renderTestimoniList();
   showToast('✅ Terima kasih atas masukan Anda!');
   this.reset(); Object.keys(ratings).forEach(k=>{ratings[k]=0;}); document.querySelectorAll('.star-rating span').forEach(s=>s.classList.remove('active','hover'));
 });
-async function renderSaranList(){
-  const el=document.getElementById('saranList'); if(!el)return;
-  el.innerHTML='<p style="color:var(--gray-500);font-size:.85rem">⏳ Memuat masukan...</p>';
-  const data=await getSaranFirebase();
-  el.innerHTML=data.slice(0,5).map(s=>`<div class="testimoni-card"><div class="testimoni-header"><span class="testimoni-nama">${s.nama}</span><span style="font-size:.78rem;color:var(--gray-500)">${s.waktu}</span></div><p class="testimoni-pesan">${s.pesan}</p></div>`).join('')||'<p style="color:var(--gray-500);font-size:.9rem">Belum ada masukan.</p>';
-}
-async function renderTestimoniList(){
-  const el=document.getElementById('testimoniList'); if(!el)return;
-  el.innerHTML='<p style="color:var(--gray-500);font-size:.85rem">⏳ Memuat testimoni...</p>';
-  const data=await getSaranFirebase();
-  el.innerHTML=data.filter(s=>s.ratingWisata>=4).slice(0,3).map(s=>`<div class="testimoni-card"><div class="testimoni-header"><span class="testimoni-nama">${s.nama}</span><span class="testimoni-stars">${'★'.repeat(s.ratingWisata)}${'☆'.repeat(5-s.ratingWisata)}</span></div><p class="testimoni-pesan">${s.pesan}</p></div>`).join('')||'<p style="color:var(--gray-500);font-size:.9rem">Belum ada testimoni.</p>';
-}
+function renderSaranList(){const el=document.getElementById('saranList');if(!el)return;el.innerHTML=getSaran().slice(0,3).map(s=>`<div class="testimoni-card"><div class="testimoni-header"><span class="testimoni-nama">${s.nama}</span><span style="font-size:.78rem;color:var(--gray-500)">${s.waktu}</span></div><p class="testimoni-pesan">${s.pesan}</p></div>`).join('')||'<p style="color:var(--gray-500);font-size:.9rem">Belum ada masukan.</p>';}
+function renderTestimoniList(){const el=document.getElementById('testimoniList');if(!el)return;el.innerHTML=getSaran().filter(s=>s.ratingWisata>=4).slice(0,3).map(s=>`<div class="testimoni-card"><div class="testimoni-header"><span class="testimoni-nama">${s.nama}</span><span class="testimoni-stars">${'★'.repeat(s.ratingWisata)}${'☆'.repeat(5-s.ratingWisata)}</span></div><p class="testimoni-pesan">${s.pesan}</p></div>`).join('')||'<p style="color:var(--gray-500);font-size:.9rem">Belum ada testimoni.</p>';}
 
 /* ============ TRANSPARANSI TABS ============ */
 document.getElementById('tabsTransparansi')?.querySelectorAll('.tab-btn').forEach(btn=>{
@@ -660,157 +602,71 @@ document.getElementById('filterTahun')?.addEventListener('change',renderLaporanL
 async function renderAnalisisGrid(){
   const el=document.getElementById('analisisGrid');if(!el)return;
   const data=await getAnalisisFirebase();
+
+  // Hitung rasio keuangan per periode
+  function calcRatios(d){
+    if(!d)return null;
+    const labaB=parseFloat(d.laba_bersih)||0;
+    const totalAset=parseFloat(d.total_aset)||0;
+    const ekuitas=parseFloat(d.ekuitas)||0;
+    const investasi=parseFloat(d.total_investasi)||0;
+    const kasPerTahun=parseFloat(d.kas_per_tahun)||0;
+    return{
+      roi: investasi>0?pct((labaB/investasi)*100):'—',
+      roa: totalAset>0?pct((labaB/totalAset)*100):'—',
+      roe: ekuitas>0?pct((labaB/ekuitas)*100):'—',
+      payback: kasPerTahun>0?(investasi/kasPerTahun).toFixed(1)+' tahun':'—',
+      labaB, totalAset, ekuitas, investasi, kasPerTahun
+    };
+  }
+
   const periodes=['2025','2024','2023','2022','2021'];
   const hasData=periodes.some(p=>data[p]);
 
   if(!hasData){
-    el.innerHTML=`<div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--gray-500)">
+    el.innerHTML=`<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--gray-500)">
       <div style="font-size:3rem;margin-bottom:1rem">📊</div>
-      <p style="font-weight:600;font-size:1rem;margin-bottom:.4rem">Belum ada data analisis keuangan</p>
-      <p style="font-size:.85rem">Admin dapat menginput data melalui Admin Panel → tab 📊 Analisis Keuangan</p>
+      <p style="font-weight:600;margin-bottom:.4rem">Belum ada data analisis keuangan</p>
+      <p style="font-size:.85rem">Admin dapat menginput data melalui Admin Panel → 📊 Analisis Keuangan</p>
     </div>`; return;
   }
 
-  // Format nilai persen dengan validasi agar tidak tampil ekstrem
-  function fmtPct(val, pembagi) {
-    if (!pembagi || pembagi === 0) return '<span style="color:var(--gray-500)">—</span>';
-    const result = (val / pembagi) * 100;
-    const fixed = result.toFixed(2);
-    const color = result >= 0 ? 'inherit' : '#dc2626';
-    const icon = result >= 15 ? '🟢' : result >= 5 ? '🟡' : '🔴';
-    return `<span style="color:${color}">${fixed}%</span> ${icon}`;
-  }
-
-  function fmtPayback(investasi, kasPerTahun) {
-    if (!kasPerTahun || kasPerTahun === 0) return '<span style="color:var(--gray-500)">—</span>';
-    const val = investasi / kasPerTahun;
-    const icon = val <= 2 ? '🟢' : val <= 5 ? '🟡' : '🔴';
-    return `${val.toFixed(1)} tahun ${icon}`;
-  }
-
-  // Tabel ringkasan semua periode
-  const activeData = periodes.filter(p => data[p]);
-
-  // Ringkasan tabel multi-periode
-  let tableHTML = `
-  <div style="grid-column:1/-1;overflow-x:auto;margin-bottom:1.5rem">
-    <table style="width:100%;border-collapse:collapse;font-size:.88rem;min-width:600px">
-      <thead>
-        <tr style="background:var(--green-dark);color:#fff">
-          <th style="padding:.7rem 1rem;text-align:left;border-radius:8px 0 0 0">Indikator</th>
-          ${activeData.map(p=>`<th style="padding:.7rem 1rem;text-align:center">${p}</th>`).join('')}
-          <th style="padding:.7rem 1rem;text-align:left;font-size:.72rem;opacity:.7;border-radius:0 8px 0 0">Rumus</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="background:var(--green-pale)">
-          <td style="padding:.65rem 1rem;font-weight:600;color:var(--green-dark)">💰 Laba Bersih</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.65rem 1rem;text-align:center;font-weight:600">${rupiah(parseFloat(d.laba_bersih)||0)}</td>`;}).join('')}
-          <td style="padding:.65rem 1rem;font-size:.75rem;color:var(--gray-500)">Input langsung</td>
-        </tr>
-        <tr>
-          <td style="padding:.65rem 1rem;font-weight:600;color:var(--gray-700)">🏦 Total Aset</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.65rem 1rem;text-align:center">${rupiah(parseFloat(d.total_aset)||0)}</td>`;}).join('')}
-          <td style="padding:.65rem 1rem;font-size:.75rem;color:var(--gray-500)">Input langsung</td>
-        </tr>
-        <tr style="background:var(--gray-50)">
-          <td style="padding:.65rem 1rem;font-weight:600;color:var(--gray-700)">📊 Ekuitas</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.65rem 1rem;text-align:center">${rupiah(parseFloat(d.ekuitas)||0)}</td>`;}).join('')}
-          <td style="padding:.65rem 1rem;font-size:.75rem;color:var(--gray-500)">Input langsung</td>
-        </tr>
-        <tr>
-          <td style="padding:.65rem 1rem;font-weight:600;color:var(--gray-700)">💳 Total Investasi</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.65rem 1rem;text-align:center">${rupiah(parseFloat(d.total_investasi)||0)}</td>`;}).join('')}
-          <td style="padding:.65rem 1rem;font-size:.75rem;color:var(--gray-500)">Input langsung</td>
-        </tr>
-        <tr style="background:var(--gray-50)">
-          <td style="padding:.65rem 1rem;font-weight:600;color:var(--gray-700)">💧 Kas Bersih/Tahun</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.65rem 1rem;text-align:center">${rupiah(parseFloat(d.kas_per_tahun)||0)}</td>`;}).join('')}
-          <td style="padding:.65rem 1rem;font-size:.75rem;color:var(--gray-500)">Input langsung</td>
-        </tr>
-        <tr style="border-top:2px solid var(--green-light)">
-          <td style="padding:.8rem 1rem;font-weight:700;color:var(--green-dark);background:var(--green-pale)">📈 ROI</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.8rem 1rem;text-align:center;font-weight:700;background:var(--green-pale)">${fmtPct(parseFloat(d.laba_bersih)||0,parseFloat(d.total_investasi)||0)}</td>`;}).join('')}
-          <td style="padding:.8rem 1rem;font-size:.75rem;color:var(--gray-500);background:var(--green-pale)">Laba ÷ Investasi × 100</td>
-        </tr>
-        <tr style="background:#fefce8">
-          <td style="padding:.8rem 1rem;font-weight:700;color:#92400e">📊 ROA</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.8rem 1rem;text-align:center;font-weight:700">${fmtPct(parseFloat(d.laba_bersih)||0,parseFloat(d.total_aset)||0)}</td>`;}).join('')}
-          <td style="padding:.8rem 1rem;font-size:.75rem;color:var(--gray-500)">Laba ÷ Total Aset × 100</td>
-        </tr>
-        <tr style="background:#f5f3ff">
-          <td style="padding:.8rem 1rem;font-weight:700;color:#5b21b6">💜 ROE</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.8rem 1rem;text-align:center;font-weight:700">${fmtPct(parseFloat(d.laba_bersih)||0,parseFloat(d.ekuitas)||0)}</td>`;}).join('')}
-          <td style="padding:.8rem 1rem;font-size:.75rem;color:var(--gray-500)">Laba ÷ Ekuitas × 100</td>
-        </tr>
-        <tr style="background:#fff1f2">
-          <td style="padding:.8rem 1rem;font-weight:700;color:#991b1b;border-radius:0 0 0 8px">⏱️ Payback Period</td>
-          ${activeData.map(p=>{const d=data[p];return`<td style="padding:.8rem 1rem;text-align:center;font-weight:700">${fmtPayback(parseFloat(d.total_investasi)||0,parseFloat(d.kas_per_tahun)||0)}</td>`;}).join('')}
-          <td style="padding:.8rem 1rem;font-size:.75rem;color:var(--gray-500);border-radius:0 0 8px 0">Investasi ÷ Kas/Tahun</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>`;
-
-  // Kartu detail per periode
-  let cardsHTML = activeData.map(p => {
-    const d = data[p];
-    const labaB = parseFloat(d.laba_bersih)||0;
-    const totalAset = parseFloat(d.total_aset)||0;
-    const ekuitas = parseFloat(d.ekuitas)||0;
-    const investasi = parseFloat(d.total_investasi)||0;
-    const kas = parseFloat(d.kas_per_tahun)||0;
-    return `
-    <div style="background:var(--white);border:1px solid var(--gray-200);border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-sm)">
-      <div style="background:linear-gradient(135deg,var(--green-dark),var(--green-mid));color:#fff;padding:.7rem 1.2rem;display:flex;justify-content:space-between;align-items:center">
-        <span style="font-weight:700;font-size:.95rem">📅 Periode ${p}</span>
-        <span style="font-size:.72rem;opacity:.8;background:rgba(255,255,255,.15);padding:.15rem .5rem;border-radius:10px">Analisis Keuangan</span>
-      </div>
-      <div style="padding:1.2rem;display:grid;grid-template-columns:1fr 1fr;gap:.7rem">
-        <div style="background:var(--green-pale);border-radius:10px;padding:.9rem;text-align:center;border-left:3px solid var(--green-main)">
-          <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-500);font-weight:600;margin-bottom:.3rem">ROI</div>
-          <div style="font-size:1.3rem;font-weight:700;color:var(--green-dark);line-height:1">${investasi>0?((labaB/investasi)*100).toFixed(2)+'%':'—'}</div>
-          <div style="font-size:.68rem;color:var(--gray-500);margin-top:.25rem">Return on Investment</div>
+  // Tampilkan semua periode yang ada data
+  el.innerHTML=periodes.filter(p=>data[p]).map(p=>{
+    const r=calcRatios(data[p]);
+    if(!r)return'';
+    return`<div style="background:var(--white);border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:1.5rem;box-shadow:var(--shadow-sm)">
+      <div style="background:var(--green-dark);color:#fff;border-radius:8px;padding:.4rem .9rem;display:inline-block;font-size:.82rem;font-weight:700;margin-bottom:1rem">📅 Periode ${p}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8rem">
+        <div style="background:var(--green-pale);border-radius:8px;padding:.8rem;text-align:center">
+          <div style="font-size:.7rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem">ROI</div>
+          <div style="font-size:1.4rem;font-weight:700;color:var(--green-dark)">${r.roi}</div>
+          <div style="font-size:.7rem;color:var(--gray-500)">Return on Investment</div>
         </div>
-        <div style="background:#fefce8;border-radius:10px;padding:.9rem;text-align:center;border-left:3px solid #ca8a04">
-          <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-500);font-weight:600;margin-bottom:.3rem">ROA</div>
-          <div style="font-size:1.3rem;font-weight:700;color:#92400e;line-height:1">${totalAset>0?((labaB/totalAset)*100).toFixed(2)+'%':'—'}</div>
-          <div style="font-size:.68rem;color:var(--gray-500);margin-top:.25rem">Return on Asset</div>
+        <div style="background:#fef3c7;border-radius:8px;padding:.8rem;text-align:center">
+          <div style="font-size:.7rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem">ROA</div>
+          <div style="font-size:1.4rem;font-weight:700;color:#92400e">${r.roa}</div>
+          <div style="font-size:.7rem;color:var(--gray-500)">Return on Asset</div>
         </div>
-        <div style="background:#f5f3ff;border-radius:10px;padding:.9rem;text-align:center;border-left:3px solid #7c3aed">
-          <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-500);font-weight:600;margin-bottom:.3rem">ROE</div>
-          <div style="font-size:1.3rem;font-weight:700;color:#5b21b6;line-height:1">${ekuitas>0?((labaB/ekuitas)*100).toFixed(2)+'%':'—'}</div>
-          <div style="font-size:.68rem;color:var(--gray-500);margin-top:.25rem">Return on Equity</div>
+        <div style="background:#ede9fe;border-radius:8px;padding:.8rem;text-align:center">
+          <div style="font-size:.7rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem">ROE</div>
+          <div style="font-size:1.4rem;font-weight:700;color:#5b21b6">${r.roe}</div>
+          <div style="font-size:.7rem;color:var(--gray-500)">Return on Equity</div>
         </div>
-        <div style="background:#fff1f2;border-radius:10px;padding:.9rem;text-align:center;border-left:3px solid #dc2626">
-          <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gray-500);font-weight:600;margin-bottom:.3rem">PAYBACK</div>
-          <div style="font-size:1.3rem;font-weight:700;color:#991b1b;line-height:1">${kas>0?(investasi/kas).toFixed(1)+' thn':'—'}</div>
-          <div style="font-size:.68rem;color:var(--gray-500);margin-top:.25rem">Payback Period</div>
+        <div style="background:#fee2e2;border-radius:8px;padding:.8rem;text-align:center">
+          <div style="font-size:.7rem;color:var(--gray-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem">Payback</div>
+          <div style="font-size:1.4rem;font-weight:700;color:#991b1b">${r.payback}</div>
+          <div style="font-size:.7rem;color:var(--gray-500)">Payback Period</div>
         </div>
       </div>
-      <div style="padding:.8rem 1.2rem;background:var(--gray-50);border-top:1px solid var(--gray-200);font-size:.78rem;color:var(--gray-500);display:grid;grid-template-columns:1fr 1fr;gap:.3rem">
-        <span>💰 Laba: <strong style="color:var(--green-dark)">${rupiah(labaB)}</strong></span>
-        <span>🏦 Aset: <strong style="color:var(--gray-700)">${rupiah(totalAset)}</strong></span>
-        <span>📊 Ekuitas: <strong style="color:#5b21b6">${rupiah(ekuitas)}</strong></span>
-        <span>💳 Investasi: <strong style="color:#991b1b">${rupiah(investasi)}</strong></span>
+      <div style="margin-top:1rem;font-size:.8rem;color:var(--gray-500);display:grid;grid-template-columns:1fr 1fr;gap:.4rem">
+        <span>💰 Laba Bersih: <strong>${rupiah(r.labaB)}</strong></span>
+        <span>🏦 Total Aset: <strong>${rupiah(r.totalAset)}</strong></span>
+        <span>📊 Ekuitas: <strong>${rupiah(r.ekuitas)}</strong></span>
+        <span>💳 Investasi: <strong>${rupiah(r.investasi)}</strong></span>
       </div>
     </div>`;
   }).join('');
-
-  // Keterangan indikator kinerja
-  const legendHTML = `
-  <div style="grid-column:1/-1;background:var(--gray-50);border-radius:var(--radius-md);padding:1rem 1.5rem;border:1px solid var(--gray-200);font-size:.8rem">
-    <p style="font-weight:600;color:var(--green-dark);margin-bottom:.5rem">📖 Keterangan Indikator:</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.4rem;color:var(--gray-500)">
-      <span>🟢 Baik &nbsp;🟡 Cukup &nbsp;🔴 Perlu perhatian</span>
-      <span><strong>ROI</strong> = Laba Bersih ÷ Total Investasi × 100</span>
-      <span><strong>ROA</strong> = Laba Bersih ÷ Total Aset × 100</span>
-      <span><strong>ROE</strong> = Laba Bersih ÷ Ekuitas × 100</span>
-      <span><strong>Payback</strong> = Total Investasi ÷ Kas Bersih/Tahun</span>
-    </div>
-  </div>`;
-
-  el.innerHTML = tableHTML + cardsHTML + legendHTML;
 }
 
 /* ============ CHARTS ============ */
@@ -848,16 +704,9 @@ function switchAdminTab(tab){
 }
 
 function populateAdminTables(){
-  renderFirebaseStatus();
-  renderAdminUsahaTable();
-  renderAdminBeritaTable();
-  renderAdminInvestorTable();
-  renderAdminReservasiTable();
-  renderAdminModalPendingTable();
-  renderAdminSaranTable();
-  renderAdminOrganisasiTable();
-  renderAdminLaporanList();
-  renderAdminAnalisisForm();
+  renderAdminUsahaTable();renderAdminBeritaTable();renderAdminInvestorTable();
+  renderAdminReservasiTable();renderAdminModalPendingTable();renderAdminSaranTable();
+  renderAdminOrganisasiTable();renderAdminLaporanList();renderAdminAnalisisForm();renderFirebaseStatus();
 }
 
 /* ============ ADMIN: UNIT USAHA (Firebase) ============ */
@@ -946,112 +795,51 @@ async function saveAdminInvestor(){
 async function deleteAdminInvestorFb(key){if(!confirm('Hapus investor?'))return;await deleteInvestorFirebase(key);renderAdminInvestorTable();renderInvestorTable();}
 
 /* ============ ADMIN: RESERVASI ============ */
-async function renderAdminReservasiTable(){
+function renderAdminReservasiTable(){
   const tbody=document.getElementById('adminReservasiTableBody');if(!tbody)return;
-  tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1rem">⏳ Memuat data reservasi...</td></tr>';
-  const data=await getReservasiFirebase();
-  if(!data.length){tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1.5rem">Belum ada reservasi masuk</td></tr>';return;}
+  const data=getReservasi();
+  if(!data.length){tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1rem">Belum ada reservasi</td></tr>';return;}
   tbody.innerHTML=data.map((r,i)=>`<tr>
-    <td>${i+1}</td>
-    <td><strong>${r.nama}</strong><br><small style="color:var(--gray-500)">${r.telp}</small></td>
-    <td>${r.wisata}</td><td>${r.tanggal}</td><td style="text-align:center">${r.jumlah}</td>
-    <td><small>${r.bukti&&r.bukti!=='-'?'📎 '+r.bukti:'—'}</small></td>
-    <td><small style="color:var(--green-main)">${r.invoiceNo||'—'}</small></td>
-    <td><span class="status-badge status-${r.status||'pending'}">${r.status==='pending'?'⏳ Pending':r.status==='validated'?'✅ Terkonfirmasi':'❌ Ditolak'}</span></td>
+    <td>${i+1}</td><td><strong>${r.nama}</strong><br><small>${r.telp}</small></td>
+    <td>${r.wisata}</td><td>${r.tanggal}</td><td>${r.jumlah}</td>
+    <td><small>${r.bukti!=='-'?'📎 '+r.bukti:'—'}</small></td>
+    <td><small>${r.invoiceNo||'—'}</small></td>
+    <td><span class="status-badge status-${r.status}">${r.status==='pending'?'⏳ Pending':r.status==='validated'?'✅ Konfirmasi':'❌ Ditolak'}</span></td>
     <td style="white-space:nowrap">
-      ${(!r.status||r.status==='pending')?`<button class="admin-btn-validate" onclick="validateReservasi('${r.fbKey}')" title="Konfirmasi">✅</button><button class="admin-btn-delete" onclick="rejectReservasi('${r.fbKey}')" title="Tolak">❌</button>`:''}
-      <button class="admin-btn-edit" onclick="cetakInvoiceAdmin('${r.fbKey}')" title="Cetak Invoice" style="background:#dbeafe;color:#1d4ed8">🧾</button>
-      <button class="admin-btn-validate" onclick="kirimTiketByKey('${r.fbKey}')" title="Kirim E-Tiket" style="background:#d1fae5;color:#065f46">🎫</button>
-      <button class="admin-btn-delete" onclick="deleteReservasi('${r.fbKey}')" title="Hapus">🗑️</button>
+      ${r.status==='pending'?`<button class="admin-btn-validate" onclick="validateReservasi(${r.id})" title="Konfirmasi">✅</button><button class="admin-btn-delete" onclick="rejectReservasi(${r.id})" title="Tolak">❌</button>`:''}
+      <button class="admin-btn-edit" onclick="cetakInvoiceAdmin(${r.id})" title="Cetak Invoice">🧾</button>
+      <button class="admin-btn-validate" onclick="kirimTiket(${r.id})" title="Kirim E-Tiket" style="background:#dbeafe;color:#1d4ed8">🎫</button>
+      <button class="admin-btn-delete" onclick="deleteReservasi(${r.id})" title="Hapus">🗑️</button>
     </td></tr>`).join('');
 }
-async function validateReservasi(fbKey){
-  const all=await getReservasiFirebase();
-  const r=all.find(x=>x.fbKey===fbKey); if(!r)return;
-  r.status='validated'; r.fbKey=fbKey;
-  await saveReservasiFirebase(r);
-  renderAdminReservasiTable(); showToast('✅ Reservasi dikonfirmasi!');
-}
-async function rejectReservasi(fbKey){
-  const all=await getReservasiFirebase();
-  const r=all.find(x=>x.fbKey===fbKey); if(!r)return;
-  r.status='rejected'; r.fbKey=fbKey;
-  await saveReservasiFirebase(r);
-  renderAdminReservasiTable(); showToast('❌ Reservasi ditolak.','error');
-}
-async function deleteReservasi(fbKey){
-  if(!confirm('Hapus data reservasi ini?'))return;
-  await deleteReservasiFirebase(fbKey); renderAdminReservasiTable(); showToast('🗑️ Reservasi dihapus.');
-}
-async function cetakInvoiceAdmin(fbKey){
-  const all=await getReservasiFirebase();
-  const r=all.find(x=>x.fbKey===fbKey); if(r)showInvoice(r);
-}
-async function kirimTiketByKey(fbKey){
-  const all=await getReservasiFirebase();
-  const r=all.find(x=>x.fbKey===fbKey); if(r)kirimTiket(r);
-}
+function validateReservasi(id){const d=getReservasi();const i=d.findIndex(x=>x.id===id);if(i>=0){d[i].status='validated';setReservasi(d);renderAdminReservasiTable();showToast('✅ Reservasi dikonfirmasi!');}}
+function rejectReservasi(id){const d=getReservasi();const i=d.findIndex(x=>x.id===id);if(i>=0){d[i].status='rejected';setReservasi(d);renderAdminReservasiTable();showToast('❌ Reservasi ditolak.','error');}}
+function deleteReservasi(id){if(!confirm('Hapus?'))return;setReservasi(getReservasi().filter(x=>x.id!==id));renderAdminReservasiTable();}
+function cetakInvoiceAdmin(id){const r=getReservasi().find(x=>x.id===id);if(r)showInvoice(r);}
 
 /* ============ ADMIN: MODAL PENDING ============ */
-async function renderAdminModalPendingTable(){
+function renderAdminModalPendingTable(){
   const tbody=document.getElementById('adminModalPendingTableBody');if(!tbody)return;
-  tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1rem">⏳ Memuat data...</td></tr>';
-  const data=await getModalPendingFirebase();
-  if(!data.length){tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1.5rem">Belum ada permintaan pembelian saham</td></tr>';return;}
-  tbody.innerHTML=data.map((m,i)=>`<tr>
-    <td>${i+1}</td><td><strong>${m.nama}</strong></td><td>${m.alamat}</td><td>${m.telp}</td>
-    <td style="text-align:center">${m.lembar} lbr</td>
-    <td class="nominal-cell">${rupiah(m.total)}</td>
-    <td><small>${m.bukti&&m.bukti!=='-'?'📎 '+m.bukti:'—'}</small></td>
-    <td><span class="status-badge status-${m.status||'pending'}">${m.status==='pending'?'⏳ Pending':m.status==='validated'?'✅ Divalidasi':'❌ Ditolak'}</span></td>
-    <td>
-      ${(!m.status||m.status==='pending')?`<button class="admin-btn-validate" onclick="validateModalPending('${m.fbKey}')">✅ Validasi</button><button class="admin-btn-delete" onclick="rejectModalPending('${m.fbKey}')">❌</button>`:''}
-      <button class="admin-btn-delete" onclick="deleteModalPending('${m.fbKey}')">🗑️</button>
-    </td></tr>`).join('');
+  const data=getModalPending();
+  if(!data.length){tbody.innerHTML='<tr><td colspan="9" style="text-align:center;color:var(--gray-500);padding:1rem">Belum ada permintaan</td></tr>';return;}
+  tbody.innerHTML=data.map((m,i)=>`<tr><td>${i+1}</td><td><strong>${m.nama}</strong></td><td>${m.alamat}</td><td>${m.telp}</td><td>${m.lembar} lbr</td><td class="nominal-cell">${rupiah(m.total)}</td><td><small>${m.bukti!=='-'?'📎 '+m.bukti:'—'}</small></td>
+    <td><span class="status-badge status-${m.status}">${m.status==='pending'?'⏳ Pending':m.status==='validated'?'✅ Valid':'❌ Ditolak'}</span></td>
+    <td>${m.status==='pending'?`<button class="admin-btn-validate" onclick="validateModalPending(${m.id})">✅</button><button class="admin-btn-delete" onclick="rejectModalPending(${m.id})">❌</button>`:''}<button class="admin-btn-delete" onclick="deleteModalPending(${m.id})">🗑️</button></td></tr>`).join('');
 }
-async function validateModalPending(fbKey){
-  const all=await getModalPendingFirebase();
-  const m=all.find(x=>x.fbKey===fbKey); if(!m)return;
-  m.status='validated'; m.fbKey=fbKey;
-  await saveModalPendingFirebase(m);
+async function validateModalPending(id){
+  const data=getModalPending();const idx=data.findIndex(x=>x.id===id);if(idx<0)return;
+  data[idx].status='validated';setModalPending(data);
+  const m=data[idx];
   const ok=await saveInvestorFirebase({nama:m.nama,alamat:m.alamat,nominal:m.total,tanggal:new Date().toISOString().split('T')[0]});
-  renderAdminModalPendingTable(); renderAdminInvestorTable(); renderInvestorTable();
-  showToast(ok?'✅ Divalidasi! Investor otomatis tersinkron ke semua pengguna.':'✅ Divalidasi!');
+  renderAdminModalPendingTable();renderAdminInvestorTable();renderInvestorTable();
+  showToast(ok?'✅ Divalidasi! Investor tersinkron ke semua pengguna.':'✅ Divalidasi (aktifkan Firebase agar terlihat user lain).');
 }
-async function rejectModalPending(fbKey){
-  const all=await getModalPendingFirebase();
-  const m=all.find(x=>x.fbKey===fbKey); if(!m)return;
-  m.status='rejected'; m.fbKey=fbKey;
-  await saveModalPendingFirebase(m);
-  renderAdminModalPendingTable(); showToast('❌ Permintaan ditolak.','error');
-}
-async function deleteModalPending(fbKey){
-  if(!confirm('Hapus data ini?'))return;
-  await deleteModalPendingFirebase(fbKey); renderAdminModalPendingTable(); showToast('🗑️ Data dihapus.');
-}
+function rejectModalPending(id){const d=getModalPending();const i=d.findIndex(x=>x.id===id);if(i>=0){d[i].status='rejected';setModalPending(d);renderAdminModalPendingTable();showToast('❌ Ditolak.','error');}}
+function deleteModalPending(id){if(!confirm('Hapus?'))return;setModalPending(getModalPending().filter(x=>x.id!==id));renderAdminModalPendingTable();}
 
 /* ============ ADMIN: SARAN ============ */
-async function renderAdminSaranTable(){
-  const tbody=document.getElementById('adminSaranTableBody');if(!tbody)return;
-  tbody.innerHTML='<tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:1rem">⏳ Memuat data saran...</td></tr>';
-  const data=await getSaranFirebase();
-  if(!data.length){tbody.innerHTML='<tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:1.5rem">Belum ada saran masuk</td></tr>';return;}
-  tbody.innerHTML=data.map(s=>`<tr>
-    <td><small style="color:var(--gray-500)">${s.waktu||'—'}</small></td>
-    <td><strong>${s.nama}</strong></td>
-    <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${s.pesan}</td>
-    <td style="text-align:center">
-      ${'★'.repeat(s.ratingWisata||0)}<span style="color:var(--gray-200)">${'★'.repeat(5-(s.ratingWisata||0))}</span>
-    </td>
-    <td><button class="admin-btn-delete" onclick="deleteAdminSaran('${s.fbKey||s.id}')">🗑️</button></td>
-  </tr>`).join('');
-}
-async function deleteAdminSaran(fbKey){
-  if(!confirm('Hapus saran ini?'))return;
-  await deleteSaranFirebase(fbKey);
-  renderAdminSaranTable(); renderSaranList(); renderTestimoniList();
-  showToast('🗑️ Saran dihapus.');
-}
+function renderAdminSaranTable(){const tbody=document.getElementById('adminSaranTableBody');if(!tbody)return;tbody.innerHTML=getSaran().map(s=>`<tr><td>${s.id}</td><td>${s.nama}</td><td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${s.pesan}</td><td>⭐${s.ratingWisata}</td><td><button class="admin-btn-delete" onclick="deleteAdminSaran(${s.id})">🗑️</button></td></tr>`).join('');}
+function deleteAdminSaran(id){if(!confirm('Hapus?'))return;setSaran(getSaran().filter(x=>x.id!==id));renderAdminSaranTable();renderSaranList();renderTestimoniList();}
 
 /* ============ ADMIN: ORGANISASI ============ */
 function renderAdminOrganisasiTable(){const tbody=document.getElementById('adminOrganisasiTableBody');if(!tbody)return;tbody.innerHTML=getOrganisasi().sort((a,b)=>(a.urutan||99)-(b.urutan||99)).map(o=>`<tr><td>${o.urutan}</td><td>${o.nama}</td><td>${o.jabatan}</td><td><button class="admin-btn-edit" onclick="editAdminOrganisasi(${o.id})">✏️</button><button class="admin-btn-delete" onclick="deleteAdminOrganisasi(${o.id})">🗑️</button></td></tr>`).join('');}
@@ -1153,22 +941,6 @@ async function deleteAdminLaporan(key){if(!confirm('Hapus laporan?'))return;awai
 
 /* ============ INIT ============ */
 document.addEventListener('DOMContentLoaded',()=>{
-  renderUsahaGrid();
-  renderOrgChart();
-  renderInvestorTable();
-  renderSaranList();
-  renderTestimoniList();
-  renderLaporanList();
-  renderAnalisisGrid();
-  renderBeritaSection();
-
-  // Auto-refresh setiap 30 detik untuk reservasi & saran (realtime feel)
-  // hanya berjalan jika ada elemen yang relevan di halaman
-  setInterval(()=>{
-    if(document.getElementById('saranList')) renderSaranList();
-    if(document.getElementById('testimoniList')) renderTestimoniList();
-    if(document.getElementById('adminReservasiTableBody')&&document.getElementById('adminPanelContainer')?.classList.contains('open')) renderAdminReservasiTable();
-    if(document.getElementById('adminSaranTableBody')&&document.getElementById('adminPanelContainer')?.classList.contains('open')) renderAdminSaranTable();
-    if(document.getElementById('adminModalPendingTableBody')&&document.getElementById('adminPanelContainer')?.classList.contains('open')) renderAdminModalPendingTable();
-  }, 30000);
+  renderUsahaGrid();renderOrgChart();renderInvestorTable();renderSaranList();renderTestimoniList();
+  renderLaporanList();renderAnalisisGrid();renderBeritaSection();
 });
