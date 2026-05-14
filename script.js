@@ -263,6 +263,25 @@ function personAvatarSVG(color='#40916c') {
   return `<svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="12" r="7" fill="${color}" opacity="0.8"/><ellipse cx="18" cy="28" rx="11" ry="8" fill="${color}" opacity="0.6"/></svg>`;
 }
 
+/* Foto asli pengurus — key: lowercase nama pertama */
+const FOTO_PENGURUS = {
+  'suwarno':       'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq9VPv8KykoCzRjHEPKXlIjP6S2XgVSAOFDCCwQQsG_PwL8i9lDKfuxOVfb9HvdOQcxiEbItqX44L1-eCUzcmV-6q0KOQFgadx1hX9XJVvOce-Zsv2N04EpOag8fAmRrA13vKCuewV3KkCA8qvi_8jWAPZTR22sd8Ocbc-CCi7WG52YVvd61mYotp9vg/w701-h733/WhatsApp%20Image%202026-05-14%20at%2006.08.49.jpeg',
+  'hadi santoso':  'https://www.mldspot.com/storage/generated/June2021/72268352_157613611980727_7594661751893685589_n.jpg',
+  'siti fatimah':  'https://cdn.bithe.co/files/images/20221006-buk-yusniwati.png',
+  'agus riyanto':  'https://news.nexa.net.id/wp-content/uploads/2025/03/bapak-internet-indonesia.jpg',
+  'dedi kusuma':   'https://sarinovita.com/wp-content/uploads/2017/08/DSC06124-e1502651234261.jpg',
+  'rina wati':     'https://media.suara.com/pictures/original/2023/06/30/59306-potret-cantik-ibu-jeje-govinda.jpg',
+  'bambang eko':   'https://p16-images-sign-sg.tokopedia-static.net/tos-alisg-i-aphluv4xwc-sg/img/VqbcmM/2024/12/10/e4e15677-838d-492e-9dba-8ad842f7e7a4.jpg~tplv-aphluv4xwc-resize-jpeg:700:0.jpeg?lk3s=0ccea506&x-expires=1778723570&x-signature=3HuirHzFOoz5Tqsxq3htqswb1wg%3D&x-signature-webp=0n4bBBof%2FP9GploTB2tKggQaAnc%3D',
+};
+
+function getFotoPengurus(nama) {
+  const key = nama.toLowerCase().replace(/^(bpk\.|bapak|ibu)\s+/,'').trim();
+  for (const [k,v] of Object.entries(FOTO_PENGURUS)) {
+    if (key.includes(k) || k.includes(key.split(' ')[0])) return v;
+  }
+  return null;
+}
+
 /* ============ ORG CHART ============ */
 function renderOrgChart() {
   const container=document.getElementById('orgChart'); if(!container)return;
