@@ -130,10 +130,33 @@ input, select, textarea, button { font-family: var(--font-body); }
   min-height: 100vh; position: relative; display: flex; flex-direction: column;
   justify-content: center; align-items: center; text-align: center; overflow: hidden; padding-top: 64px;
 }
-.hero-bg { position: absolute; inset: 0; background: linear-gradient(160deg, var(--green-dark) 0%, var(--green-mid) 45%, #1e6b47 100%); }
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  /* ======================================================
+     UNTUK MENGGANTI BACKGROUND HERO DENGAN FOTO:
+     Hapus baris background di bawah ini, lalu ganti dengan:
+
+     background:
+       linear-gradient(rgba(10,40,20,0.60), rgba(10,40,20,0.65)),
+       url('URL_FOTO_ANDA_DISINI.jpg') center / cover no-repeat;
+
+     CONTOH pakai foto kolam renang:
+     background:
+       linear-gradient(rgba(10,40,20,0.60), rgba(10,40,20,0.65)),
+       url('https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=1600&q=90')
+       center / cover no-repeat;
+
+     Angka 0.60 = tingkat kegelapan overlay (0=terang, 1=gelap).
+     Sesuaikan agar teks tetap terbaca.
+     ====================================================== */
+  background:
+    linear-gradient(rgba(10,35,20,0.62), rgba(10,35,20,0.68)),
+    url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiCOFHeQxUk8NagEB3IFD__Hj9lHO5viUaiHArWIBAjevElF6BzljL2ifqrr2LSB4uJw1utdsLx49t-DozgNb5tpAOrc1XNZKBKa4aabo6WgelwgO-nlLQeBpVOdJPflS-jIln2UnBwX_XPwUf5ckDlgDOuVTcdEuZRZBiMwOt5MAKyOV3oqgeuYztEyPc/s4000/Gedung%20SSC.jpg') center / cover no-repeat;
+}
 .hero-overlay { position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
 
-.hero-content { position: relative; z-index: 2; padding: 2rem 1.5rem 0; max-width: 760px; }
+.hero-content { position: relative; z-index: 2; padding: 2rem 1.5rem 0; max-width: 820px; text-align: center; margin-left: auto; margin-right: auto; }
 .hero-title { font-family: var(--font-display); font-size: clamp(2.5rem, 6vw, 4.2rem); color: var(--white); line-height: 1.15; margin-bottom: 1.2rem; }
 .hero-title em { font-style: italic; color: var(--green-light); }
 .hero-tagline { font-size: clamp(.95rem, 2vw, 1.15rem); color: rgba(255,255,255,.8); margin-bottom: 2rem; line-height: 1.7; }
